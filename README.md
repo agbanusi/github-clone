@@ -9,4 +9,4 @@ npm run start
 
 The main frontend files are in the public folder
 
-The deployed website is (here) [https://serene-lichterman-314c24.netlify.app]
+The deployed website is [here](https://serene-lichterman-314c24.netlify.app)
