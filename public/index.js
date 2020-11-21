@@ -24,7 +24,7 @@ async function fetcher(){
             login
         }
     }`
-    const method = {method:'POST', headers:{'Content-Type': 'application/json', 'Authorization':'Bearer 6c72af4254daaa6ccabca6c1183c0727764829ac'}, body: JSON.stringify({query})}
+    const method = {method:'POST', headers:{'Content-Type': 'application/json', 'Authorization':'Bearer '}, body: JSON.stringify({query})}
     const res = await fetch('https://api.github.com/graphql', method)
     const data = await res.json()
     let nrepo = {...data.data.viewer}
